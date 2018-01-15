@@ -27,6 +27,12 @@ public class FileSearchController {
 	private static final Logger LOGGER = LoggerFactory
 			.getLogger(FileSearchController.class);
 
+	/**
+	 * Handle input request for word search in designated folder and redirects it service method 
+	 * @param jsonInput takes folder and word as input
+	 * @return status of the search result with file name with absolute path
+	 * @throws JSONException
+	 */
 	@RequestMapping(value = "/wordCrawlerInFolder", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
 	public @ResponseBody String wordCrawlerInFolder(
 			@RequestBody String jsonInput) throws JSONException {
