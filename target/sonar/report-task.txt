@@ -1,0 +1,6 @@
+projectKey=com.reed:ReedPOC
+serverUrl=http://localhost:9000
+serverVersion=6.7.1.35068
+dashboardUrl=http://localhost:9000/dashboard/index/com.reed:ReedPOC
+ceTaskId=AWD7Lhx48n_EH3f1K4gV
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWD7Lhx48n_EH3f1K4gV
